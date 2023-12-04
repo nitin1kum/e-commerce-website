@@ -10,11 +10,9 @@ const ProductCard = (props) => {
   const [hover, setHover] = useState(true);
   const [click, setClick] = useState(false);
   const [click1, setClick1] = useState(false);
-  const [location1, setLocation1] = useState('')
+  const [location1, setLocation1] = useState("");
   const handleHover = () => {
-    
-      setHover(!hover);
-    
+    setHover(!hover);
   };
   const wishClick = () => {
     setClick(!click);
@@ -23,25 +21,29 @@ const ProductCard = (props) => {
     setClick1(!click1);
   };
   const [view, setView] = useState(false);
-  const [quanValue, setQuanValue] = useState(1)
-  let location = useLocation()
+  const [quanValue, setQuanValue] = useState(1);
+  let location = useLocation();
   useEffect(() => {
-    setLocation1(location.pathname)
-  }, [])
-  
-  
+    setLocation1(location.pathname);
+  }, []);
 
   return (
     <div>
       <div className={view ? "" : "hidden"}>
-        <div className=" fixed flex left-0 bottom-0 translate w-screen h-screen bg-black bg-opacity-30 view-box" >
-          <div className="h-full w-full absolute top-0 left-0" onClick={()=>{
-            setView(!view)
-          }}></div>
-          <div className="bg-white  gap-8 grid grid-cols-2 w-2/3 h-min rounded-lg shadow-lg p-10 relative  m-auto" >
-            <div className="absolute -top-2 -right-2 bg-black text-white border-2 border-white rounded-full h-7 w-7 cursor-pointer flex justify-center items-center shadow-cross"  onClick={()=>{
-            setView(!view)
-          }}>
+        <div className=" fixed flex left-0 bottom-0 translate w-screen h-screen bg-black bg-opacity-30 view-box">
+          <div
+            className="h-full w-full absolute top-0 left-0"
+            onClick={() => {
+              setView(!view);
+            }}
+          ></div>
+          <div className="bg-white  gap-8 grid grid-cols-2 w-2/3 h-min rounded-lg shadow-lg p-10 relative  m-auto">
+            <div
+              className="absolute -top-2 -right-2 bg-black text-white border-2 border-white rounded-full h-7 w-7 cursor-pointer flex justify-center items-center shadow-cross"
+              onClick={() => {
+                setView(!view);
+              }}
+            >
               <i className="fa-xmark fa-solid"></i>
             </div>
             <div className="flex w-full h-full items-center">
@@ -126,7 +128,13 @@ const ProductCard = (props) => {
         onMouseEnter={handleHover}
         onMouseLeave={handleHover}
       >
-        <div className={props.gridNum === 1 ? "relative w-56 shrink-0 product-card-img" : "relative "}>
+        <div
+          className={
+            props.gridNum === 1
+              ? "relative w-56 shrink-0 product-card-img"
+              : "relative "
+          }
+        >
           <div
             className={
               !hover
@@ -155,11 +163,7 @@ const ProductCard = (props) => {
               }
               onClick={wishClick}
             >
-              <img
-                className="heart-black"
-                src="images/wish-black.svg"
-                alt=""
-              />
+              <img className="heart-black" src="images/wish-black.svg" alt="" />
             </div>
             <div
               className={
@@ -188,8 +192,12 @@ const ProductCard = (props) => {
               >
                 <img className=" m-auto" src="images/prodcompare.svg" alt="" />
               </div>
-              <Link to='/products'><div
-                className={location1==="/collections/ourstore"?"p-2 rounded-full hover:bg-hover":"hidden"}
+              <div
+                className={
+                  location1 === "/collections/ourstore"
+                    ? "p-2 rounded-full hover:bg-hover"
+                    : "hidden"
+                }
                 onClick={() => {
                   setView(!view);
                 }}
@@ -198,35 +206,47 @@ const ProductCard = (props) => {
               </div>
               <div className="p-2 rounded-full hover:bg-hover">
                 <img src="images/add-cart.svg" alt="" />
-              </div></Link>
+              </div>
             </div>
           </div>
-          <img
-            className={
-              hover
-                ? " transition-all duration-1000 ease-in-out"
-                : "opacity-0 transition-all ease-in-out duration-1000"
-            }
-            src="images/tab.jpg"
-            alt=""
-          />
-          <img
-            className={
-              hover
-                ? "opacity-0 absolute top-0 left-0 transition-all duration-1000 ease-in-out"
-                : "ease-in-out absolute top-0 left-0 transition-all duration-1000"
-            }
-            src="images/tab1.jpg"
-            alt=""
-          />
+          <Link to="/products">
+            <div>
+              <img
+                className={
+                  hover
+                    ? " transition-all duration-1000 ease-in-out"
+                    : "opacity-0 transition-all ease-in-out duration-1000"
+                }
+                src="images/tab.jpg"
+                alt=""
+              />
+              <img
+                className={
+                  hover
+                    ? "opacity-0 absolute top-0 left-0 transition-all duration-1000 ease-in-out"
+                    : "ease-in-out absolute top-0 left-0 transition-all duration-1000"
+                }
+                src="images/tab1.jpg"
+                alt=""
+              />
+            </div>
+          </Link>
         </div>
         <div className=" product-card-details">
           <p className=" text-catBannerText capitalize">Havells</p>
-          <Link to='/products'><h4 className="capitalize my-2 text-sm">
-            Kids Headphones Bulk 10 pack Multi colored for..
-          </h4></Link>
+          <Link to="/products">
+            <h4 className="capitalize my-2 text-sm">
+              Kids Headphones Bulk 10 pack Multi colored for..
+            </h4>
+          </Link>
           <ReactStars value={3.5} />
-          <p className={props.gridNum === 1 ? "text-gray-600 h-20 overflow-hidden" : "hidden"}>
+          <p
+            className={
+              props.gridNum === 1
+                ? "text-gray-600 h-20 overflow-hidden"
+                : "hidden"
+            }
+          >
             "At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti quos
             dolores et quas molestias excepturi sint occaecati cupiditate non
