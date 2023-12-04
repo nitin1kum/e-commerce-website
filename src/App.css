@@ -217,7 +217,7 @@ h2 {
 /*   our Store */
 
 .main-store {
-    width: calc(100vw-320px);
+    /* width: calc(100vw-320px); */
 }
 
 .grid-designer img {
