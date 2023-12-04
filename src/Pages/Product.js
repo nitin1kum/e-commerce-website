@@ -5,6 +5,8 @@ import { useState } from "react";
 import ImgMagnifier from "../Components/ImgMagnifier";
 import ProductCard from "../Cards/ProductCard";
 import ProductHeroSection from "../Components/ProductHeroSection";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const Product = () => {
   const [review, setReview] = useState(false);
