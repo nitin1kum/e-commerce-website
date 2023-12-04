@@ -57,16 +57,16 @@ const ProductCard = (props) => {
                 }}
               >
                 <SwiperSlide>
-                  <img src="/images/camera-1.jpg" alt="" />
+                  <img src="images/camera-1.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/images/camera.jpg" alt="" />
+                  <img src="images/camera.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/images/camera-2.jpg" alt="" />
+                  <img src="images/camera-2.jpg" alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="/images/camera-3.jpg" alt="" />
+                  <img src="images/camera-3.jpg" alt="" />
                 </SwiperSlide>
               </Swiper>
               <i className="next-view-slide fa-chevron-right fa-solid fa-2xl text-gray-400 cursor-pointer"></i>
@@ -145,7 +145,7 @@ const ProductCard = (props) => {
               }
               onClick={wishClick}
             >
-              <img src="/images/wish.svg" alt="" />
+              <img src="images/wish.svg" alt="" />
             </div>
             <div
               className={
@@ -157,7 +157,7 @@ const ProductCard = (props) => {
             >
               <img
                 className="heart-black"
-                src="/images/wish-black.svg"
+                src="images/wish-black.svg"
                 alt=""
               />
             </div>
@@ -176,7 +176,7 @@ const ProductCard = (props) => {
                 }
                 onClick={compareClick}
               >
-                <img className=" m-auto" src="/images/prodcompare.svg" alt="" />
+                <img className=" m-auto" src="images/prodcompare.svg" alt="" />
               </div>
               <div
                 className={
@@ -186,7 +186,7 @@ const ProductCard = (props) => {
                 }
                 onClick={compareClick}
               >
-                <img className=" m-auto" src="/images/prodcompare.svg" alt="" />
+                <img className=" m-auto" src="images/prodcompare.svg" alt="" />
               </div>
               <Link to='/products'><div
                 className={location1==="/collections/ourstore"?"p-2 rounded-full hover:bg-hover":"hidden"}
@@ -194,10 +194,10 @@ const ProductCard = (props) => {
                   setView(!view);
                 }}
               >
-                <img src="/images/view.svg" alt="" />
+                <img src="images/view.svg" alt="" />
               </div>
               <div className="p-2 rounded-full hover:bg-hover">
-                <img src="/images/add-cart.svg" alt="" />
+                <img src="images/add-cart.svg" alt="" />
               </div></Link>
             </div>
           </div>
@@ -207,7 +207,7 @@ const ProductCard = (props) => {
                 ? " transition-all duration-1000 ease-in-out"
                 : "opacity-0 transition-all ease-in-out duration-1000"
             }
-            src="/images/tab.jpg"
+            src="images/tab.jpg"
             alt=""
           />
           <img
@@ -216,7 +216,7 @@ const ProductCard = (props) => {
                 ? "opacity-0 absolute top-0 left-0 transition-all duration-1000 ease-in-out"
                 : "ease-in-out absolute top-0 left-0 transition-all duration-1000"
             }
-            src="/images/tab1.jpg"
+            src="images/tab1.jpg"
             alt=""
           />
         </div>

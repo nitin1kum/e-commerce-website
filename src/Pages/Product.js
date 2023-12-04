@@ -56,7 +56,7 @@ const Product = () => {
             />
             <img
               className="absolute top-4 left-4 img-zoom"
-              src="/images/img-zoom.svg"
+              src="images/img-zoom.svg"
               alt=""
             />
           </div>
@@ -70,7 +70,7 @@ const Product = () => {
               />
               <img
                 className="absolute top-4 left-4 img-zoom"
-                src="/images/img-zoom.svg"
+                src="images/img-zoom.svg"
                 alt=""
               />
             </div>
@@ -83,7 +83,7 @@ const Product = () => {
               />
               <img
                 className="absolute top-4 left-4 img-zoom"
-                src="/images/img-zoom.svg"
+                src="images/img-zoom.svg"
                 alt=""
               />
             </div>
@@ -96,7 +96,7 @@ const Product = () => {
               />
               <img
                 className="absolute top-4 left-4 img-zoom"
-                src="/images/img-zoom.svg"
+                src="images/img-zoom.svg"
                 alt=""
               />
             </div>
