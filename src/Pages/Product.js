@@ -106,7 +106,7 @@ const Product = () => {
           <div
             id="product-content"
             className={
-              top.topY < 10
+              top.topY < 10 && window.innerWidth>1200
                 ? top.height >= top.bottomY
                   ? "bottom-0 w-full absolute"
                   : "fixed top-0 pr-12 w-full"

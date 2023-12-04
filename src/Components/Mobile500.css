@@ -220,4 +220,21 @@
   .cart-table thead th{
     padding: 1rem 0.5rem;
   }
+  .product-hero{
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .product-hero .text-xl{
+    font-size: 15px;
+  }
+  .product-hero .text-sm{
+    font-size: 12px;
+  }
+  .view-page{
+    width: 95%;
+  }
+  .view-page .text-2xl,
+  .view-page .text-xl{
+    font-size: 15px;
+  }
 }

@@ -112,5 +112,13 @@
       .cart-table td{
         padding: 1.5rem;
       }
+      .main-store{
+        width: 100%;
+      }
+
+
+      .last-section div{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+      }
 
 }

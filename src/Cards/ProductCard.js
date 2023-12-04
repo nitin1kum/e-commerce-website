@@ -34,11 +34,11 @@ const ProductCard = (props) => {
   return (
     <div>
       <div className={view ? "" : "hidden"}>
-        <div className=" fixed left-0 bottom-0 translate w-screen h-screen bg-black bg-opacity-30 view-box" >
+        <div className=" fixed flex left-0 bottom-0 translate w-screen h-screen bg-black bg-opacity-30 view-box" >
           <div className="h-full w-full absolute top-0 left-0" onClick={()=>{
             setView(!view)
           }}></div>
-          <div className="bg-white  gap-8 grid grid-cols-2 w-2/3 h-min rounded-lg shadow-lg p-10 relative translate-y-1/2 m-auto" >
+          <div className="bg-white  gap-8 grid grid-cols-2 w-2/3 h-min rounded-lg shadow-lg p-10 relative  m-auto" >
             <div className="absolute -top-2 -right-2 bg-black text-white border-2 border-white rounded-full h-7 w-7 cursor-pointer flex justify-center items-center shadow-cross"  onClick={()=>{
             setView(!view)
           }}>
