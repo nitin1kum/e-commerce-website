@@ -241,7 +241,7 @@ const Header = () => {
             <i className="fa-bars fa-solid fa-xl"></i>
           </div>
           <NavLink to="/">
-            <h1 className="  text-4xl capitalize cursor-pointer">Digitic.</h1>
+            <h1 className="  text-4xl capitalize cursor-pointer">Digitic</h1>
           </NavLink>
         </div>
         <div className="w-2/5 header-searchbar">
