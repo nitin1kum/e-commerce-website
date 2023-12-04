@@ -40,7 +40,7 @@ const ProductCard = (props) => {
               setView(!view);
             }}
           ></div>
-          <div className="bg-white  gap-8 grid grid-cols-2 w-2/3 h-min rounded-lg shadow-lg p-10 relative  m-auto">
+          <div className="bg-white view-page gap-8 grid grid-cols-2 w-2/3 h-min rounded-lg shadow-lg p-10 relative  m-auto">
             <div
               className="absolute -top-2 -right-2 bg-black text-white border-2 border-white rounded-full h-7 w-7 cursor-pointer flex justify-center items-center shadow-cross"
               onClick={() => {
