@@ -12,7 +12,9 @@ const ProductCard = (props) => {
   const [click1, setClick1] = useState(false);
   const [location1, setLocation1] = useState("");
   const handleHover = () => {
-    setHover(!hover);
+    if (window.innerWidth > 1200) {
+      setHover(!hover);
+    }
   };
   const wishClick = () => {
     setClick(!click);
@@ -24,8 +26,8 @@ const ProductCard = (props) => {
   const [quanValue, setQuanValue] = useState(1);
   let location = useLocation();
   useEffect(() => {
-    if(window.innerWidth<1200){
-      setHover(false)
+    if (window.innerWidth < 1200) {
+      setHover(false);
     }
     setLocation1(location.pathname);
   }, []);
