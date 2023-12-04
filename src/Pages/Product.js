@@ -63,7 +63,7 @@ const Product = () => {
           <div className="grid gap-6 grid-cols-2">
             <div className="relative border border-gray-400">
               <ImgMagnifier
-                src={"/images/camera-1.jpg"}
+                src={"images/camera-1.jpg"}
                 index={1}
                 scale={3}
                 multiplier={2}
@@ -76,7 +76,7 @@ const Product = () => {
             </div>
             <div className="relative border border-gray-400">
               <ImgMagnifier
-                src={"/images/camera-2.jpg"}
+                src={"images/camera-2.jpg"}
                 index={2}
                 scale={3}
                 multiplier={2}
@@ -89,7 +89,7 @@ const Product = () => {
             </div>
             <div className="relative border border-gray-400">
               <ImgMagnifier
-                src={"/images/camera-3.jpg"}
+                src={"images/camera-3.jpg"}
                 index={3}
                 scale={3}
                 multiplier={2}
@@ -256,13 +256,39 @@ const Product = () => {
       </section>
       <section className="last-section p-6">
         <h1 className="text-2xl">You May Also Like</h1>
-        <div className="grid grid-cols-6 gap-6 my-6">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+        <div>
+        <Swiper className=' mx-6'
+          slidesPerView={1}
+          freeMode={true}
+          spaceBetween={10}
+          breakpoints={{
+            1200:{
+              slidesPerView: (6),
+              spaceBetween:20
+            },
+            950:{
+              slidesPerView: (4),
+              spaceBetween:20
+            },
+            750:{
+              slidesPerView: (3),
+              spaceBetween:20
+            },
+            500:{
+              slidesPerView: (2),
+              spaceBetween:20
+            },
+          }}
+        >
+          
+          <SwiperSlide><ProductCard /></SwiperSlide>
+          <SwiperSlide><ProductCard /></SwiperSlide>
+          <SwiperSlide><ProductCard /></SwiperSlide>
+          <SwiperSlide><ProductCard /></SwiperSlide>
+          <SwiperSlide><ProductCard /></SwiperSlide>
+          <SwiperSlide><ProductCard /></SwiperSlide>
+          <SwiperSlide><ProductCard /></SwiperSlide>
+        </Swiper>
         </div>
       </section>
     </div>
