@@ -197,7 +197,7 @@ const ProductCard = (props) => {
               </div>
               <div
                 className={
-                  !location1 === "/"
+                  !(location1 === "/")
                     ? "p-2 rounded-full hover:bg-hover"
                     : "hidden"
                 }
