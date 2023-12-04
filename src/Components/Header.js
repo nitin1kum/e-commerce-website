@@ -195,6 +195,9 @@ const Header = () => {
                 <NavLink to="/contact">Contact</NavLink>
               </li>
               <li className="border-bottom align-middle py-3 px-4 hover:text-hover">
+                <NavLink to="/collections/outstore">Our Store</NavLink>
+              </li>
+              <li className="border-bottom align-middle py-3 px-4 hover:text-hover">
                 <ul className="grid grid-cols-5">
                   <li className=" bg-gray-700 bg-opacity-50 h-10 w-10 rounded-full flex items-center justify-center hover:text-hover">
                     <Link>

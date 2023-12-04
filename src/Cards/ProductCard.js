@@ -24,6 +24,9 @@ const ProductCard = (props) => {
   const [quanValue, setQuanValue] = useState(1);
   let location = useLocation();
   useEffect(() => {
+    if(window.innerWidth<1200){
+      setHover(false)
+    }
     setLocation1(location.pathname);
   }, []);
 
@@ -194,7 +197,7 @@ const ProductCard = (props) => {
               </div>
               <div
                 className={
-                  location1 === "/collections/ourstore"
+                  !location1 === "/"
                     ? "p-2 rounded-full hover:bg-hover"
                     : "hidden"
                 }
