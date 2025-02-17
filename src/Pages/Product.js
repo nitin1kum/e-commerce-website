@@ -96,7 +96,7 @@ const Product = () => {
           <div className="relative product-details h-full w-full">
             <div
               id="product-content"
-              className="bg-white w-[inherit]"
+              className="bg-white top-0"
               ref={infoSection}
             >
               <ProductHeroSection />

@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const ProductCard = (props) => {
-  const [hover, setHover] = useState(true);
+  const [hover, setHover] = useState(false);
   const [click, setClick] = useState(false);
   const [click1, setClick1] = useState(false);
   const [location1, setLocation1] = useState("");
