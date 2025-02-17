@@ -1,0 +1,125 @@
+@media (max-width:1200px) {
+    .header-items p{
+        display: none;
+    }
+    .cart-data p{
+        display: block;
+    }
+
+    .text-lg{
+        font-size: 16px;
+    }
+    .text-5xl{
+        font-size: 2rem;
+    }
+    .text-3xl{
+        font-size: 1.5rem;
+
+    }
+
+
+    /* section 1 home */
+
+
+    .home-wrapper-1 p{
+        line-height: 20px;
+        font-size: 12px;
+        text-align: left;
+    }
+    .big-sidebar{
+        display: none;
+    }
+    .laptop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+    }
+    .crousel-headings h1{
+        margin: 10px 0;
+    }
+    .crousel-headings button{
+        margin: 1rem 0;
+        padding: 0.4rem 1rem;
+        justify-self: flex-start;
+    }
+    .home-wrapper-1 h2{
+        margin: 5px 0;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .catbanner-heading{
+        margin: 15px;
+        width: 60%;
+    }
+
+    /* section-2 home */
+    
+
+    .home-wrapper-2 ul{
+        grid-template-columns:repeat(3,minmax(0,1fr));
+        white-space: nowrap;
+    }
+
+
+    .popular-product{
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr);
+    }
+
+    /* compare */
+    .compare-card-container{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+        gap: 2rem;
+    }
+    /* compare-end */
+    
+    /* wishlist */
+    .wishlist-card-container{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+
+    }
+
+    /* wishlist-ends */
+
+    /* featured Collection 2 */
+
+    .featured-collection-2 p{
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .featured-collection-2 h2{
+        margin: 5px 0;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+
+    /* Popular Product */
+
+    .popular-product{
+        grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,3fr);
+    }
+    .store .grid-cols-5{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+      }
+
+
+      /* cart */
+
+      .cart-table tbody tr td:first-child div{
+        width: 50%;
+      }
+      .cart-table td{
+        padding: 1.5rem;
+      }
+
+
+      .main-store{
+        width: 100%;
+      }
+
+
+      .last-section div{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+      }
+}

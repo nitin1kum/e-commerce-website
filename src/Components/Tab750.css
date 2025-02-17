@@ -1,0 +1,133 @@
+@media (max-width:750px) {
+    /* header */
+
+    .account-dropdown ul{
+        right: 0;
+        width: 150px;
+    }
+    /* .account-dropdown li{
+        padding: 0.75rem 0;
+    } */
+    .account-dropdown a{
+        font-size: 15px;
+    }
+    /* Home-Wrapper-1 */
+
+    .content-cards{
+        grid-template-columns: repeat(2, minmax(0,1fr));
+        grid-template-rows: repeat(2, minmax(0,1fr));
+        gap: 0.5rem;
+        
+    }
+    .catbanner-heading{
+        width: 70%;
+        padding: 10% 5%;
+    }
+    .catbanner-heading .text-sm{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* Special Product */
+
+    .special-product{
+        width: 100%;
+    }
+
+    /* popular product */
+
+
+    .popular-product{
+        grid-template-columns:minmax(0,1fr) minmax(0,2fr);
+    }
+    .product-list{
+        display: none;
+    }
+    .popular-product-header{
+        display: block !important;
+    }
+    .store .grid-cols-5,
+    .store .grid-cols-4,
+    .store .grid-cols-3{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+      }
+
+
+    /* compare */
+
+  .compare-card-container,
+  .wishlist-card-container{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 2rem;
+  }
+
+
+  /* blog */
+
+  .blog-card-container{
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+
+
+  /* contact */
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem !important;
+  }
+
+
+  /* cart */
+
+  .cart-table tbody tr td:first-child div {
+    width: 100%;
+    }
+  .cart-table tr td:first-child{
+    flex-direction: column;
+  }
+  .cart-table thead tr th:last-child{
+    display: none;
+  }
+  .cart-table tbody tr td:last-child{
+    display: none;
+  }
+  .cart-table .leading-7{
+    line-height: 20px;
+  }
+  .cart-table .text-sm{
+    font-size: 12px;
+  }
+  .cart-checkout{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .cart-checkout textarea{
+    width: 100%;
+  }
+  .cart-checkout div:last-child p{
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+  }
+  .cart-checkout div:last-child p span{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .cart-checkout div:last-child a{
+    width: min-content;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  .cart-checkout div:last-child{
+    align-items: center;
+  }
+  .log-in,
+  .register,
+  .reset-pwd{
+    width: 300px;
+    padding: 0.5rem;
+  }
+
+}

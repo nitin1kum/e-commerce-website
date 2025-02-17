@@ -1,0 +1,241 @@
+@media (max-width: 500px) {
+    .p-6{
+        padding: 0.5rem;
+    }
+    .m-6{
+        padding: 0.5rem;
+    }
+  /* header */
+  .header-searchbar-responsive form{
+    width: 90%;
+  }
+  .cart-data p:first-child {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-data p:last-child {
+    display: none;
+  }
+  .header-components {
+    gap: 0;
+  }
+  .text-4xl {
+    font-size: 25px;
+  }
+  .header-components img {
+    height: 25px;
+    width: 25px;
+  }
+  .footer-send-msg form {
+    width: 100%;
+}
+  .account-dropdown ul {
+    right: 0;
+    width: 150px;
+  }
+  .account-dropdown a {
+    font-size: 15px;
+  }
+
+  /* Home-Wrapper-1 */
+  .crousel-headings {
+    margin: 10% 5% !important;
+  }
+  .crousel-headings h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 15px;
+  }
+  .crousel-headings p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .catbanner-heading {
+    padding: 2%;
+  }
+  .catbanner-heading p:last-child {
+    display: none;
+  }
+  .catbanner-heading .text-sm {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .catbanner-heading h2 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  button {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 12px;
+  }
+
+  /* Home Wrapper 2 */
+
+  .home-wrapper-2 {
+    padding:2.5rem 1rem;
+  }
+
+  /* Home Wrapper 3 */
+
+  .home-wrapper-3 {
+    padding: 0 1rem;
+  }
+
+  /* Product Card */
+
+  .product-card-details p:first-child {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .product-card-details h4 {
+    font-size: 0.8rem;
+  }
+  .product-card-details p:last-child {
+    font-size: 15px;
+    margin: 0;
+  }
+  .product-card-design {
+    padding: 0.3rem;
+  }
+  .product-card-header {
+    margin: 1rem 0;
+  }
+  .product-card-header h1 {
+    font-size: 20px;
+  }
+
+  /* Special Product */
+
+  .special-product-details p{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .special-product-details a p{
+    font-size: 15px; 
+    margin: 0.5rem 0;
+  }
+  .special-product-details span{
+    font-size: 15px ;
+  }
+  .product-days{
+    font-size: 10px !important;
+  }
+  .timer{
+    font-size: 12px !important;
+    padding: 0.25rem;
+  }
+  .special-product-card{
+    gap: 0.5rem;
+  }
+
+
+
+      /* popular product */
+
+    .text-3xl{
+        font-size: 20px;
+    }
+      .popular-product{
+        grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+        gap: 0.8rem;
+    }
+
+    /* Footer */
+
+    .footer-send-msg .text-2xl{
+        font-size: 20px;
+    }
+    .action-bar .p-2{
+      padding: 0.2rem;
+    }
+    .main-navbar div:first-child{
+      flex-direction: column;
+      gap: 24px;
+    }
+    .main-navbar div div:last-child{
+      justify-content: space-between;
+    }
+    .product-card-img{
+      width: 150px;
+    }
+    .sidebar-body .p-6{
+      padding: 1rem;
+    }
+
+
+    /* compare */
+
+  .compare-card-container,
+  .wishlist-card-container{
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    gap: 2rem;
+  }
+  .compare-hero{
+    font-size: 13px;
+    text-align: center;
+  }
+  .compare-hero img,
+  .wishlist-hero img{
+    width: 250px;
+    margin: 20px auto;
+    
+  }
+  .compare-card,
+  .wishlist-card{
+    padding: 1rem;
+  }
+
+  .small-sidebar div:first-child{
+    width: 18rem;
+  }
+
+
+  .cart-popup{
+    width: 300px;
+  }
+
+
+  /* cart */
+
+  .cart-table tr td:first-child{
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .cart-table tr td:nth-child(3) div{
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart-item-quantity{
+    flex-direction: row !important;
+  }
+  .cart-table td{
+    padding: 0.5rem;
+  }
+  .cart-table thead th{
+    padding: 1rem 0.5rem;
+  }
+
+  .product-hero{
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+  .product-hero .text-xl{
+    font-size: 15px;
+  }
+  .product-hero .text-sm{
+    font-size: 12px;
+  }
+  .view-page{
+    width: 95%;
+  }
+  .view-page .text-2xl,
+  .view-page .text-xl{
+    font-size: 15px;
+  }
+}
