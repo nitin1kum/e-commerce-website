@@ -16,7 +16,6 @@ This is an e-commerce website built using React and Redux.
 - Redux
 - React Router
 - Axios
-- Bootstrap
 
 ## Installation
 
