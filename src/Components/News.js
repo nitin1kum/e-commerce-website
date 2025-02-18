@@ -17,7 +17,7 @@ const News = () => {
               <div className="h-full w-full ">
                 <img
                   className="w-full object-cover py-6 "
-                  src="/images/blog-1.jpg"
+                  src="./images/blog-1.jpg"
                   alt=""
                 />
               </div>

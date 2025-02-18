@@ -13,19 +13,19 @@ const PopularProduct = (props) => {
                 <ul className='flex gap-12 whitespace-nowrap overflow-auto'>
                     <li className='inline-block mr-6'>
                         <Link className='flex items-center gap-6'>
-                            <img src="/images/cat-icon-01.png" alt="" />
+                            <img src="./images/cat-icon-01.png" alt="" />
                             <h4>Speaker</h4>
                         </Link>
                     </li>
                     <li className='inline-block mr-6'>
                         <Link className='flex items-center gap-6'>
-                            <img src="/images/cat-icon-02.png" alt="" />
+                            <img src="./images/cat-icon-02.png" alt="" />
                             <h4>Laptops</h4>
                         </Link>
                     </li>
                     <li className='inline-block mr-6'>
                         <Link className='flex items-center gap-6'>
-                            <img src="/images/cat-icon-03.png" alt="" />
+                            <img src="./images/cat-icon-03.png" alt="" />
                             <h4>Smart Watch</h4>
                         </Link>
                     </li>
@@ -36,26 +36,26 @@ const PopularProduct = (props) => {
                 <ul>
                     <li>
                         <Link>
-                            <img src="/images/cat-icon-01.png" alt="" />
+                            <img src="./images/cat-icon-01.png" alt="" />
                             <h4>Speaker</h4>
                         </Link>
                     </li>
                     <li>
                         <Link>
-                            <img src="/images/cat-icon-02.png" alt="" />
+                            <img src="./images/cat-icon-02.png" alt="" />
                             <h4>Laptops</h4>
                         </Link>
                     </li>
                     <li>
                         <Link>
-                            <img src="/images/cat-icon-03.png" alt="" />
+                            <img src="./images/cat-icon-03.png" alt="" />
                             <h4>Smart Watch</h4>
                         </Link>
                     </li>
                 </ul>
             </div>
             <div className='pop-prod-2 '>
-                <img className='h-full rounded-lg w-full object-cover' src="/images/cat-product-banner.jpg" alt="" />
+                <img className='h-full rounded-lg w-full object-cover' src="./images/cat-product-banner.jpg" alt="" />
             </div>
             <div>
             <Swiper className=' mx-6'

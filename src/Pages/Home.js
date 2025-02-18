@@ -31,7 +31,7 @@ const Home = () => {
           <div className="content-crousel h-full w-full  inline-block relative whitespace-nowrap rounded-xl overflow-hidden">
             <img
               className="h-full w-full object-cover"
-              src="/images/main-banner.jpg"
+              src="./images/main-banner.jpg"
               alt=""
             />
             <div className="crousel-headings absolute top-0 left-0 m-12 w-1/3 flex flex-col justify-start">
@@ -51,7 +51,7 @@ const Home = () => {
           <div className="content-crousel h-full w-full inline-block relative whitespace-nowrap rounded-xl overflow-hidden ">
             <img
               className="h-full w-full object-cover"
-              src="/images/main-banner-1.jpg"
+              src="./images/main-banner-1.jpg"
               alt=""
             />
             <div className="crousel-headings absolute top-0 left-0 m-12 w-1/3 flex flex-col justify-start">

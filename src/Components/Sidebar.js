@@ -253,7 +253,7 @@ const Sidebar = (props) => {
                 <Link>
                   <img
                     className=" w-40 object-contain"
-                    src="/images/tab.jpg"
+                    src="./images/tab.jpg"
                     alt=""
                   />
                 </Link>
@@ -271,7 +271,7 @@ const Sidebar = (props) => {
                 <Link>
                   <img
                     className=" w-40 object-contain"
-                    src="/images/tab.jpg"
+                    src="./images/tab.jpg"
                     alt=""
                   />
                 </Link>

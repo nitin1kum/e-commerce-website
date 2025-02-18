@@ -10,7 +10,7 @@ const FeaturedCollection2 = () => {
                 <h2 className='text-2xl my-3 capitalize'>Smart Watch Series 7</h2>
                 <p className='text-sm text-gray-600 capitalize'>from $399 or $16.62/mo. for 24 mo.*</p>
             </div>
-            <img className='h-full w-full object-cover transition-all duration-500' src="/images/subbanner-02.jpg" alt="laptop-image" />
+            <img className='h-full w-full object-cover transition-all duration-500' src="./images/subbanner-02.jpg" alt="laptop-image" />
             </Link>
         </div>
     )

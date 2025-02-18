@@ -188,14 +188,14 @@ const ProductHeroSection = () => {
                   }}
                 >
                   <div className="relative">
-                    <img src="/images/wish.svg" alt="" />
+                    <img src="./images/wish.svg" alt="" />
                     <img
                       className={
                         click.wish
                           ? "h-4 w-4 object-cover absolute top-0 left-0"
                           : "hidden"
                       }
-                      src="/images/wish-black.svg"
+                      src="./images/wish-black.svg"
                       alt=""
                     />
                   </div>
@@ -214,7 +214,7 @@ const ProductHeroSection = () => {
                 >
                   <img
                     className={click.compare ? "rotate-180" : " "}
-                    src="/images/prodcompare.svg"
+                    src="./images/prodcompare.svg"
                     alt=""
                   />
                   Add to compare

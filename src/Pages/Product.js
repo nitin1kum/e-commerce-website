@@ -42,52 +42,52 @@ const Product = () => {
           <div className="product-img grid grid-rows-2 gap-6 min-h-[500px] h-min">
             <div className=" relative border border-gray-400 mb-6 w-full h-full">
             <ImgMagnifier
-                  src={"/images/camera-1.jpg"}
+                  src={"./images/camera-1.jpg"}
                   index={0}
                   scale={1.5}
                   multiplier={4}
                 />
               <img
                 className="absolute top-4 left-4 img-zoom"
-                src="/images/img-zoom.svg"
+                src="./images/img-zoom.svg"
                 alt=""
               />
             </div>
             <div className="grid gap-6 grid-cols-2">
               <div className="relative border border-gray-400">
                 <ImgMagnifier
-                  src={"/images/camera-1.jpg"}
+                  src={"./images/camera-1.jpg"}
                   index={1}
                   scale={2}
                 />
                 <img
                   className="absolute top-4 left-4 img-zoom"
-                  src="/images/img-zoom.svg"
+                  src="./images/img-zoom.svg"
                   alt=""
                 />
               </div>
               <div className="relative border border-gray-400">
                 <ImgMagnifier
-                  src={"/images/camera-2.jpg"}
+                  src={"./images/camera-2.jpg"}
                   index={2}
                   scale={2}
                 />
                 <img
                   className="absolute top-4 left-4 img-zoom"
-                  src="/images/img-zoom.svg"
+                  src="./images/img-zoom.svg"
                   alt=""
                 />
               </div>
               <div className="relative border border-gray-400">
                 <ImgMagnifier
-                  src={"/images/camera-3.jpg"}
+                  src={"./images/camera-3.jpg"}
                   index={3}
                   scale={3}
                   multiplier={2}
                 />
                 <img
                   className="absolute top-4 left-4 img-zoom"
-                  src="/images/img-zoom.svg"
+                  src="./images/img-zoom.svg"
                   alt=""
                 />
               </div>

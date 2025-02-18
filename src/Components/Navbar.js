@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className=' bg-nav-color flex gap-8 px-4  items-center  uppercase text-white para'>
       <div className="nav-dropdown-container relative cursor-pointer">
         <div className='flex gap-5 items-center px-4  my-4 border-left ' onClick={handleClick}>
-          <img className='h-6' src="/images/menu.svg" alt="menu" />
+          <img className='h-6' src="./images/menu.svg" alt="menu" />
           <p className='mr-12'>shop categories</p>
           <i className="fa-solid fa-chevron-down fa-xs"></i>
         </div>

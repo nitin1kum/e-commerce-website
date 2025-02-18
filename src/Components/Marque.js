@@ -34,25 +34,25 @@ const Marque = () => {
                 }}
                 className='marque-swiper'
         >
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-01.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-02.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-03.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-04.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-05.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-06.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-07.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-08.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-01.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-02.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-03.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-04.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-05.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-06.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-07.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-08.png" alt="" /></Link></SwiperSlide>
 
             {/*...... REEATING THE ABOVE TAGS TO MAKE INFINTE MARQUE TAG ........*/}
 
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-01.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-02.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-03.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-04.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-05.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-06.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-07.png" alt="" /></Link></SwiperSlide>
-            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="/images/brand-08.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-01.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-02.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-03.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-04.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-05.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-06.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-07.png" alt="" /></Link></SwiperSlide>
+            <SwiperSlide><Link className='rotate '><img className='transition-all duration-500' src="./images/brand-08.png" alt="" /></Link></SwiperSlide>
         </Swiper>
     </div>
   )

@@ -31,7 +31,7 @@ const Header = () => {
             <li className="flex gap-4  my-6">
               <img
                 className="w-16 h-16 object-cover"
-                src="/images/camera-2.jpg"
+                src="./images/camera-2.jpg"
                 alt=""
               />
               <div>
@@ -51,7 +51,7 @@ const Header = () => {
             <li className="flex gap-4  my-6">
               <img
                 className="w-16 h-16 object-cover"
-                src="/images/camera-2.jpg"
+                src="./images/camera-2.jpg"
                 alt=""
               />
               <div>
@@ -71,7 +71,7 @@ const Header = () => {
             <li className="flex gap-4  my-6">
               <img
                 className="w-16 h-16 object-cover"
-                src="/images/camera-2.jpg"
+                src="./images/camera-2.jpg"
                 alt=""
               />
               <div>
@@ -271,7 +271,7 @@ const Header = () => {
           <Link className="flex items-center gap-2 rotate" to="pages/compare">
             <img
               className="header-icon-sizing  duration-500 transition-all"
-              src="/images/compare.svg"
+              src="./images/compare.svg"
               alt="projects"
             />
             <div className="">
@@ -282,7 +282,7 @@ const Header = () => {
           <Link className="flex items-center gap-2 rotate" to="pages/wishlist">
             <img
               className="header-icon-sizing  duration-500 transition-all"
-              src="/images/wishlist.svg"
+              src="./images/wishlist.svg"
               alt="Wishlist"
             />
             <div className="">
@@ -297,7 +297,7 @@ const Header = () => {
             >
               <img
                 className="header-icon-sizing  duration-500 transition-all"
-                src="/images/user.svg"
+                src="./images/user.svg"
                 alt="my account"
               />
               <div className="">
@@ -330,7 +330,7 @@ const Header = () => {
           >
             <img
               className="header-icon-sizing duration-500 transition-all"
-              src="/images/cart.svg"
+              src="./images/cart.svg"
               alt=""
             />
             <div className="cart-data">

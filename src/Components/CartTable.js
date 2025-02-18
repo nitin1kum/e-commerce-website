@@ -10,7 +10,7 @@ const CartTable = () => {
       <td className="flex gap-8 items-center">
         <img
           className="w-16 h-16 object-cover"
-          src="/images/camera.jpg"
+          src="./images/camera.jpg"
           alt=""
         />
         <div className="w-1/3">

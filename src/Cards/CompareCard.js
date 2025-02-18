@@ -8,7 +8,7 @@ const CompareCard = () => {
             <Link>
                 <div className='compare-hero'>
 
-                    <img className='w-full object-contain' src="/images/speaker.jpg" alt="" />
+                    <img className='w-full object-contain' src="./images/speaker.jpg" alt="" />
                     <h3 className='hover:underline font-medium my-1'>Honor T1 7.0 1 GB RAM 8 GB ROM 7 Inch With Wi-Fi+3G...</h3>
                 </div>
             </Link>

@@ -433,7 +433,7 @@ const CompleteStore = (props) => {
                     }
                     onClick={(event) => gridChanger("gr4")}
                   >
-                    <img className="" src="/images/gr4.svg" alt="" />
+                    <img className="" src="./images/gr4.svg" alt="" />
                   </span>
                   <span
                     className={
@@ -443,7 +443,7 @@ const CompleteStore = (props) => {
                     }
                     onClick={(event) => gridChanger("gr3")}
                   >
-                    <img className="" src="/images/gr3.svg" alt="" />
+                    <img className="" src="./images/gr3.svg" alt="" />
                   </span>
                   <span
                     className={
@@ -453,7 +453,7 @@ const CompleteStore = (props) => {
                     }
                     onClick={(event) => gridChanger("gr2")}
                   >
-                    <img className="" src="/images/gr2.svg" alt="" />
+                    <img className="" src="./images/gr2.svg" alt="" />
                   </span>
                   <span
                     className={
@@ -463,7 +463,7 @@ const CompleteStore = (props) => {
                     }
                     onClick={(event) => gridChanger("gr")}
                   >
-                    <img className="" src="/images/gr.svg" alt="" />
+                    <img className="" src="./images/gr.svg" alt="" />
                   </span>
                 </div>
               </div>
